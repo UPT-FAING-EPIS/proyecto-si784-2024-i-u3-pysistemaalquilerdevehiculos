@@ -33,6 +33,8 @@
   </table>
 </div>
 
+## LINK DEL VIDEO: https://youtu.be/KzeBk0IgpXc
+
 # I. INTRODUCCION
 
 El presente trabajo aborda la creación de un sistema automatizado para la gestión de alquiler de vehículos, desarrollado con PHP8 y MySQL. El sistema se basa en la arquitectura MVC (Modelo-Vista-Controlador) para estructurar el código de manera eficiente y mantener una clara separación entre la lógica de negocios, la presentación y el control de la aplicación. Este sistema busca resolver problemas comunes en la gestión de alquiler de vehículos, como errores en las reservas, duplicaciones y una experiencia de usuario deficiente.
