@@ -186,14 +186,20 @@ Se ve que se están ejecutando pruebas automáticas y se configura el entorno de
 
 ![Configuracion 02](path/to/Configuracion06.png)
 
-## 15. Se uso la herramienta para Automatiza el Analisis para la muestra de la Cobertura
+## 15. Diagrama de Flujo
+
+Este diagrama de flujo del trabajo configurado en el archivo ci.yml se ejecutó exitosamente en respuesta a un evento de "push"
+
+![Configuracion 02](path/to/Configuracion09.png)
+
+## 16. Se uso la herramienta para Automatiza el Analisis para la muestra de la Cobertura
 
 
 Se usa una herramienta de análisis de código que muestra la cobertura de línea para un proyecto llamado "ProyectoUnidad3". La cobertura de línea es una medida de la cantidad de código que se ha probado. En este caso, la cobertura de línea para el código nuevo es del 92,2%. 
 
 ![Configuracion 02](path/to/Configuracion07.png)
 
-## 16. Se uso la herramienta para Automatiza el Analisis para los features
+## 17. Se uso la herramienta para Automatiza el Analisis para los features
 
 <div align="center">
   <table style="width: 80%; border: 2px solid #4CAF50; border-collapse: collapse;">
