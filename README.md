@@ -1,6 +1,9 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/wBx8xMPt)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=15404052)
 
+<div align="center">
+  <h1 style="font-size: 36px;">Sistema Automatizado Alquiler de Vehículos</h1>
+</div>
 
 <div align="center">
   <table border="2">
@@ -135,3 +138,84 @@ Las pruebas guiadas por el comportamiento (BDD) son una técnica de desarrollo �
 Este enfoque asegura que todos los miembros del equipo comprendan claramente cómo debe comportarse el software y permite escribir pruebas automatizadas que validen ese comportamiento.
 
 ![Reporte de Pruebas BDD](path/to/Reporte_BDD.png)
+
+## 8. Reporte de Pruebas Guiadas por el Comportamiento (BDD Given When Then)
+
+<div style="display: flex; align-items: flex-start;">
+  <div style="flex: 1;">
+    GitHub Actions es una plataforma de integración continua y entrega continua (CI/CD) que permite automatizar flujos de trabajo de desarrollo de software directamente desde un repositorio de GitHub. Utiliza archivos YAML para definir procesos que se ejecutan en respuesta a eventos específicos como push, pull requests, issues, y más. Las características principales incluyen la capacidad de construir, probar y desplegar código, así como integrar con otros servicios y herramientas mediante el uso de acciones predefinidas o personalizadas. Esta herramienta facilita la automatización y mejora la eficiencia en el ciclo de vida del desarrollo del software.
+  </div>
+  <div style="flex: 0 0 250px; margin-left: 20px;">
+    <img src="path/to/github_action.png" alt="Contenido de GitHub Actions" style="max-width: 65%;">
+  </div>
+</div>
+
+## 9. Configuración del proyecto dentro de la plataforma de SonarQube
+
+Ingresamos los datos requeridos
+
+![Configuracion 01](path/to/Configuracion01.png)
+
+## 10. La configuración de un proyecto en SonarQube bajo la metodología
+
+Esta configuración permite definir qué parte del código se considerará como nuevo código:Seleccionamos "Previous version", lo que significa que se considera nuevo código cualquier cambio desde la versión anterior.
+
+![Configuracion 02](path/to/Configuracion02.png)
+
+## 11. Claves Importantes Asociadas con el proyecto
+
+Esta sección proporciona una visión general rápida de la configuración y las claves importantes asociadas con el proyecto, así como la puerta de calidad utilizada para evaluar la calidad del código. 
+
+![Configuracion 02](path/to/Configuracion03.png)
+
+## 12. Configuracion del archivo ci.yml
+
+El archivo YAML muestra cómo configurar un flujo de trabajo automatizado en GitHub Actions para ejecutar pruebas y realizar análisis de calidad de código con SonarQube. Esto asegura que el proyecto esté siempre bajo control de calidad continua y se mantenga en buen estado conforme se realizan cambios en el código.
+
+![Configuracion 02](path/to/Configuracion04.png)
+
+## 13. Construccion de la rama de bddreporte
+
+Sección de configuración de GitHub Pages para un repositorio. La sección resaltada indica que el sitio de GitHub Pages se está construyendo actualmente desde la rama "bddreporte". 
+
+![Configuracion 02](path/to/Configuracion05.png)
+
+## 14. Proceso continua de ci.yml
+
+Se ve que se están ejecutando pruebas automáticas y se configura el entorno de desarrollo para el proyecto. Además, se muestra el estado de las pruebas y la configuración del repositorio de código. 
+
+![Configuracion 02](path/to/Configuracion06.png)
+
+## 15. Se uso la herramienta para Automatiza el Analisis para la muestra de la Cobertura
+
+
+Se usa una herramienta de análisis de código que muestra la cobertura de línea para un proyecto llamado "ProyectoUnidad3". La cobertura de línea es una medida de la cantidad de código que se ha probado. En este caso, la cobertura de línea para el código nuevo es del 92,2%. 
+
+![Configuracion 02](path/to/Configuracion07.png)
+
+## 16. Se uso la herramienta para Automatiza el Analisis para los features
+
+<div align="center">
+  <table style="width: 80%; border: 2px solid #4CAF50; border-collapse: collapse;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="border: 2px solid #4CAF50; padding: 8px; text-align: center; color: #4CAF50;">Descripción</th>
+        <th style="border: 2px solid #4CAF50; padding: 8px; text-align: center; color: #4CAF50;">Enlace</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="border: 2px solid #4CAF50; padding: 8px; text-align: center;">Reporte automatizado de pruebas</td>
+        <td style="border: 2px solid #4CAF50; padding: 8px; text-align: center;"><a href="https://j0rgz.github.io/ProyectoUnidad3/index.html" style="color: #4CAF50;">https://j0rgz.github.io/ProyectoUnidad3/index.html</a></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+
+Este reporte demuestra que todas las pruebas automatizadas ejecutadas fueron exitosas, lo cual es un buen indicador de la calidad y estabilidad del sistema en su estado actual. 
+
+![Configuracion 02](path/to/Configuracion08.png)
+
+
+
